@@ -1,0 +1,62 @@
+
+body{
+    background:#a9c3dc;
+    font-family:"Times New Roman", serif;
+}
+
+#wrapper{
+    width:965px;
+    margin:55px auto;
+    background:#4d6a85;
+}
+
+header{
+    background:#2f5e90;
+    height:95px;
+    text-align:center;
+   
+}
+
+#content{
+    display:flex;
+}
+.box{clear: both; color: rgb(200, 214, 214);border-bottom: 2px solid rgb(51, 134, 143); font-size: 24px;  box-shadow: 5px 5px 5px rgb(181, 181, 101);}
+#nav{
+    width:150px;
+    background-color:rgb(49, 93, 112);
+    padding:35px 25px;
+    
+}
+.h1{border: 5px solid rgb(42, 91, 96); background-color: #a9c3dc; margin-bottom: 20px;}
+
+
+nav ul{
+    list-style:none;
+}
+
+nav ul li{
+    margin-bottom:8px;
+}
+
+nav ul li a{
+    text-decoration:none;
+    color:navy;
+    font-size:18px;
+}
+
+.sawir img{width: 100px; height: 120px; float: left; margin-right: 3px;}
+main{
+    flex:1;
+    padding:35px 15px;
+}
+
+
+footer{
+    background:#203f6b;
+    color:white;
+    text-align:center;
+    padding:8px;
+    border-top:3px solid #8c6f40;
+    border-bottom:3px solid #8c6f40;
+    font-style:italic;
+}
