@@ -39,7 +39,7 @@ nav ul li{
 }
 nav a:hover{
     color: yellow;
-    background-color: navy;
+    background-color: navy;}
 nav ul li a{
     text-decoration:none;
     color:navy;
